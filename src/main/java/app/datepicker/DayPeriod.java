@@ -1,4 +1,4 @@
-package app.DatePicker;
+package app.datepicker;
 
 // Applicable only for ClockType.BASIC_DATE_TIME
 public enum DayPeriod {
