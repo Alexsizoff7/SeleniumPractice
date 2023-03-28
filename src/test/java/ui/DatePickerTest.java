@@ -1,8 +1,8 @@
 package ui;
 
-import app.DatePicker.CalendarType;
-import app.DatePicker.ClockType;
-import app.DatePicker.DayPeriod;
+import app.datepicker.CalendarType;
+import app.datepicker.ClockType;
+import app.datepicker.DayPeriod;
 import baseclasses.BaseUITestClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -12,7 +12,6 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
-
 import static utils.TestUtils.explicitWait;
 
 public class DatePickerTest extends BaseUITestClass {

@@ -1,15 +1,16 @@
-package app.DatePicker;
+package app.datepicker;
 
 // Choosing one of three available calendars on Date Picker page
 // String values tied to enums serve as indexes to one of 3 available calendars
 // "(//div[contains(@class, "flatpickr-calendar")])[ CalendarType ]"
-public enum ClockType {
-    BASIC_DATE_TIME("1"),
-    TIME_PICKER("3");
+public enum CalendarType {
+    BASIC_DATE("1"),
+    RANGE_DATE("2"),
+    DATE_WITH_RESET("4");
 
     private final String text;
 
-    ClockType(final String text) {
+    CalendarType(final String text) {
         this.text = text;
     }
 
